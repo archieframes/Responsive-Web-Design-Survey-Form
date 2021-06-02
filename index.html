@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUNEiNFORMER Email Signup</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,800;1,400&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="./resources/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./resources/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./resources/favicon-16x16.png">
+    <link rel="manifest" href="./resources/site.webmanifest">
+</head>
+<body>
+
+<div id="background-img">
+    
+    <h1 id="title"><span id="brand-name">TUNEiNFORMER</span><br>Email Signup</h1>
+
+    <p id="description">We're excited you want to hear from us!<br>Now tell us <strong>what</strong> you want to hear...</p>
+
+    <form id="survey-form" action="./thankyou.html" target="">
+
+        <label id="name-label" for="name">Name</label>
+        <br>
+        <input class="round" id="name" name="name" type="text" required placeholder="John Doe">
+        <br>
+
+        <label id="email-label" for="email">Email Address</label>
+        <br>
+        <input class="round" id="email" name="email" type="email" required placeholder="abc@website.com">
+        <br>
+
+        <label id="number-label" for="number">How many emails would you like to receive each week?</label>
+        <input class="round" id="number" name="frequency" type="number" min="1" max="7" placeholder="1-7">
+        <br>
+
+        <label for="dropdown">How do you normally listen to music?</label>
+        <select name="listening-format" class="round" id="dropdown">
+            <option value="vinyl">Vinyl</option>
+            <option value="streaming-service">Streaming Service</option>
+            <option value="MP3-CD">MP3/CD</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+
+        <p>What genres do you listen to?</p>
+        <input type="checkbox" name="genre1" id="genre1" value="rock">
+        <label for="genre1">Rock</label>
+        <br>
+        <input type="checkbox" name="genre2" id="genre2" value="blues">
+        <label for="genre2">Blues</label>
+        <br>
+        <input type="checkbox" name="genre3" id="genre3" value="soul">
+        <label for="genre3">Soul</label>
+        <br>
+
+        <p id="hear-about">How did you hear about us?</p>
+        <input type="radio" id="option1" value="option1" name="heard-about-us">
+        <label for="option1">Word of mouth</label>
+        <br>
+        <input type="radio" id="option2" value="option2" name="heard-about-us">
+        <label for="option2">Online</label>
+        <br>
+        <input type="radio" id="option3" value="option3" name="heard-about-us">
+        <label for="option3">Advertisement</label>
+        <br>
+
+        <label for="additional-info">Additional Information</label>
+        <textarea name="additional-info" class="round" id="additional-info" cols="30" rows="5" placeholder="How can we personalize your experience?"></textarea>
+        
+        <input class="round" id="submit" type="submit" value="Submit">
+
+    </form>
+    
+    <br>
+
+    <footer>&copy;Austin Reeves 2020</footer>
+
+    <!--<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
+
+</div>
+
+</body>
+</html>

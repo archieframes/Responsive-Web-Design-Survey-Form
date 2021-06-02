@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    border: none;
+    margin: 0;
+    outline: none;
+    color: white;
+    text-shadow: black 0 0 5px;
+}
+
+html {
+    font-size: 18px;
+}
+
+#background-img {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../resources/kevin-mccutcheon-TcSckNRL9J8-unsplash.jpg);
+    background-position: left 50% top 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: scroll;
+}
+
+input, select, option, textarea {
+    margin: 1em 0 2em 0;
+    font-size: .9rem;
+}
+
+#title, #description {
+    text-align: center;
+}
+
+#title {
+    margin-top: 1em;
+    font-weight: 400;
+}
+
+#brand-name, strong {
+    font-weight: 800;
+    text-shadow: gold 0 0 5px;
+}
+
+#description {
+    line-height: 1.5em;
+    margin: 2em;
+}
+
+#survey-form {
+    background: rgba(150, 150, 150, 0.5);
+    border-radius: .33rem;
+    width: 80%;
+    max-width: 750px;
+    padding: 1.5em;
+    margin: 0 auto 10% auto;
+    box-shadow: 0 0 5px black;
+}
+
+.round {
+    width: 100%;
+    padding: .5em;
+    text-align: left;
+    color: black;
+    border-radius: .33rem;
+    box-shadow: 0 0 5px black;
+    text-shadow: none;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin: 1em 0 0 0;
+}
+
+label[for*="genre"], label[for*="option"] {
+    font-weight: 200;
+    font-size: .9rem;
+}
+
+#hear-about, label[for="additional-info"] {
+    display: block;
+    margin-top: 2em;
+}
+
+#submit {
+    color: white;
+    background-color: hsl(120, 100%, 25%);
+    text-align: center;
+    text-shadow: black 0 0 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: right;
+    font-size: .9rem;
+    padding: 1em;
+    font-weight: 200;
+}
